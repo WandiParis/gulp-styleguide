@@ -1,0 +1,30 @@
+{
+  "name": "gulp-styleguide",
+  "version": "1.0.0",
+  "description": "Generate a styleguide from KSS in style sources",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel task -d dist",
+    "test": "gulp compile --gulpfile ./test/gulpfile.babel.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WandiParis/gulp-sprite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WandiParis/gulp-sprite/issues"
+  },
+  "homepage": "https://github.com/WandiParis/gulp-sprite#readme",
+  "dependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-sass": "^2.3.2",
+    "sc5-styleguide": "^1.1.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-2": "^6.13.0"
+  }
+}
