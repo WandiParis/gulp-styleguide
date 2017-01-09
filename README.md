@@ -15,7 +15,7 @@ Paramètres par défaut :
 ```js
 // gulpfile.babel.js
 
-import styleguide from gulp-styleguide
+import styleguide from 'gulp-styleguide'
 
 const compile = styleguide()
 
